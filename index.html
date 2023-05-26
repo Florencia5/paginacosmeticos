@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda</h1>
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.05 9.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">0</span>
+            </div>
+        </div>
+        <div class="container-cart-products hidden-cart">
+            <div class="cart-product">
+                <div class="info-cart-product">
+                    <span class="cantidad-producto-carrito">1</span>
+                    <div>
+                        <p class="titulo-producto-carrito">Acido hialuronico Loreal</p>
+                        <span class="precio-producto-carrito">$5.700</span>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>
+            <div class="cart-total">
+                <h3>Total</h3>
+                <span class="total-pagar">$5.700</span>
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="https://farmaonline.vtexassets.com/arquivos/ids/854810-1600-1600?v=638139004605300000&width=1600&height=1600&aspect=true" alt="Producto">
+            </figure>
+            <div class="info-producto">
+                <h2>Acido hialuronico Loreal</h2>
+                <p class="price">$5.700</p>
+                <button>añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://farmacityar.vteximg.com.br/arquivos/ids/209281-1000-1000/221463_agua-micelar-loreal-paris-revitalift-filler-con-acido-hialuronico-x-200-ml_imagen-1.jpg?v=637547121018600000" alt="Producto">
+            </figure>
+            <div class="info-producto">
+                <h2>Agua Micelar Ácido Hialurónico</h2>
+                <p class="price">$2.382</p>
+                <button>añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://farmacityar.vteximg.com.br/arquivos/ids/242384-1000-1000/224412_combo-loreal-paris-revitalift-acido-hialulronico-crema-dia-x-50-ml-crema-noche-x-50-ml_imagen-1.jpg?v=638194104198100000" alt="Producto">
+            </figure>
+            <div class="info-producto">
+                <h2>Crema de día Revitalift FPS 20</h2>
+                <p class="price">$5.101</p>
+                <button>añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://http2.mlstatic.com/D_NQ_NP_739655-MLA45882596643_052021-O.webp" alt="Producto">
+            </figure>
+            <div class="info-producto">
+                <h2>Ampollas Loreal Paris</h2>
+                <p class="price">$5.670</p>
+                <button>añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://lh3.googleusercontent.com/FDhlnuYcQDqDFyURGfneXpNywOZkSwQNgFV14X5mBiCUwLnnzKhMWLc1KxE1CmYi2rQkXDVq31A-BPVzO3Qyrb5D5AfMhUUwFB_pGF81eU-ppxJkzA=s360" alt="Producto">
+            </figure>
+            <div class="info-producto">
+                <h2>Crema Ojos Loreal Paris</h2>
+                <p class="price">$4.700</p>
+                <button>añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
